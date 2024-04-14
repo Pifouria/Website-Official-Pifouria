@@ -20,10 +20,18 @@
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Animation -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
   </head>
   <body>
     <!-- Navbar start -->
-    <nav class="navbar">
+    <nav class="navbar" data-aos="fade-down" data-aos-duration="1500">
       <a href="#" class="navbar-logo"
         ><img
           src="Images/Logo Pifouria PNG.svg"
@@ -43,17 +51,18 @@
         <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
       </div>
     </nav>
-    <!-- Navbar start -->
+    <!-- Navbar end -->
 
     <!-- Hero Section start -->
-    <section class="hero" id="home">
+    <section class="hero" data-aos="fade-down" data-aos-duration="1100" id="home">
       <main class="content">
-        <h1>We are <span>Pifourian</span></h1>
-        <p>Angkatan IV SMAI Al Azhar 24 Boarding School.</p>
+        <h1 data-aos="fade-up" data-aos-duration="1100">We are <span data-aos="fade-up" data-aos-duration="1250" data-aos-delay="100">Pifourian</span></h1>
+        <p data-aos="fade-up" data-aos-duration="1400" data-aos-delay="200">Angkatan IV SMAI Al Azhar 24 Boarding School.</p>
         <a
           href="https://www.instagram.com/pifouria/"
           target="_blank"
           class="cta"
+          data-aos="fade-up" data-aos-duration="1600" data-aos-delay="300"
           >Sosmed Kami</a
         >
       </main>
@@ -62,9 +71,9 @@
 
     <!-- About Section start -->
     <section id="about" class="about">
-      <h2><span>About</span> us</h2>
+      <h2 data-aos="fade-up" data-aos-duration="1600"><span>About</span> us</h2>
 
-      <div class="row">
+      <div class="row" data-aos="fade-up" data-aos-duration="1700" data-aos-delay="200">
         <div class="about-img">
           <img src="Images/About-us.jpg" alt="About us" />
         </div>
@@ -83,13 +92,13 @@
 
     <!-- Agenda Section start-->
     <section id="agenda" class="agenda">
-      <h2>Our <span>Documentation</span></h2>
-      <p>
+      <h2 data-aos="fade-up" data-aos-duration="1300">Our <span>Documentation</span></h2>
+      <p data-aos="fade-up" data-aos-duration="1300" data-aos-delay="100">
         Dokumentasi kegiatan Angkatan IV 2021-2024
       </p>
 
-      <div class="row">
-        <div class="agenda-card">
+      <div class="row" data-aos="fade-up" data-aos-duration="1500">
+        <div class="agenda-card" data-aos="fade-up" data-aos-duration="1700">
           <img
             src="Images/1.jpg"
             height="300"
@@ -99,7 +108,7 @@
           <h3 class="agenda-card-tittle">1st time ngumpul angkatan</h3>
           <p class="agenda-card-kelas">[Kelas 10]</p>
         </div>
-        <div class="agenda-card">
+        <div class="agenda-card" data-aos="fade-up" data-aos-duration="1700">
           <img
             src="Images/2.jpg"
             height="300"
@@ -109,7 +118,7 @@
           <h3 class="agenda-card-tittle">Barbeque-an bareng</h3>
           <p class="agenda-card-kelas">[Kelas 10]</p>
         </div>
-        <div class="agenda-card">
+        <div class="agenda-card" data-aos="fade-up" data-aos-duration="1700">
           <img
             src="Images/3.jpg"
             height="300"
@@ -119,7 +128,7 @@
           <h3 class="agenda-card-tittle">Hari raya Idul Adha</h3>
           <p class="agenda-card-kelas">[Kelas 10]</p>
         </div>
-        <div class="agenda-card">
+        <div class="agenda-card" data-aos="fade-up" data-aos-duration="1700">
           <img
             src="Images/4.jpg"
             height="300"
@@ -129,7 +138,7 @@
           <h3 class="agenda-card-tittle">Hiking ke Curug</h3>
           <p class="agenda-card-kelas">[Kelas 10]</p>
         </div>
-        <div class="agenda-card">
+        <div class="agenda-card" data-aos="fade-up" data-aos-duration="1700">
           <img
             src="Images/5.jpg"
             height="300"
@@ -139,7 +148,7 @@
           <h3 class="agenda-card-tittle">Perpisahan Abiyu</h3>
           <p class="agenda-card-kelas">[Kelas 11]</p>
         </div>
-        <div class="agenda-card">
+        <div class="agenda-card" data-aos="fade-up" data-aos-duration="1700">
           <img
             src="Images/6.jpg"
             height="300"
@@ -149,7 +158,7 @@
           <h3 class="agenda-card-tittle">Study tour ke Dieng</h3>
           <p class="agenda-card-kelas">[Kelas 11]</p>
         </div>
-        <div class="agenda-card">
+        <div class="agenda-card" data-aos="fade-up" data-aos-duration="1700">
           <img
             src="Images/7.jpg"
             height="300"
@@ -164,7 +173,7 @@
     <!-- Agenda Section end-->
 
     <!-- Footer Section start -->
-    <footer>
+    <footer data-aos="fade-up" data-aos-duration="1700">
       <div class="socials">
         <a href="https://www.instagram.com/pifouria/" target="_blank"
           ><img src="Images/instagram.svg" title="instagram" height="30px"
@@ -190,7 +199,7 @@
       </div>
 
       <div class="credit">
-        <p>Created by <a href="">Pifouria Media</a> | &copy; 2024</p>
+        <p>Created by <a href="https://www.instagram.com/hilmi.m_/" target="_blank">Pifouria Media</a> | &copy; 2024</p>
       </div>
     </footer>
 
@@ -203,5 +212,10 @@
 
     <!-- My Javascript -->
     <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
